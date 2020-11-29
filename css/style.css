@@ -5,72 +5,77 @@
 
 .header {
     margin-top: 40px;
-    margin-bottom: 24px;
 }
 
 .h1 {
     font-size: 80px;
     line-height: 95px;
     border-bottom: 2px solid #000;
+    padding-bottom: 24px;
 }
 
 
 
 .header img {
-    margin-top: 48px;
-    margin-bottom: 48px;
+    margin: 48px 0 ;
 }
-
 
 
 .h2 {
     font-size: 32px;
-    line-height: 48px;
+    line-height: 45px;
     padding-bottom: 8px;
     border-bottom: 1px solid #000;
 }
 
 .h2 span {
+    font-size: 24px;
     padding-left: 16px;
+    line-height: 29px;
     color: #A00404;
 }
 
+.h2-dark {
+    color:#fff;
+    text-align:center;
+    border-bottom: 1px solid #fff;
+}
+
+.h2-dark span {
+    color: #fff;
+}
+
 .profile {
-    padding-bottom: 64px;
+    margin-bottom: 72px;
 }
 
 .education {
-    padding-bottom: 64px;
+    margin-bottom: 72px;
 }
 
 .desc {
     margin-top: 16px;
-    margin-bottom: 8px;
     font-size: 24px;
     line-height: 36px;
 }
 
+.desc-dark {
+    color: #fff;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
 
 .skills {
     background-color: #415165;
     margin-bottom: 72px;
+    padding-top: 24px;
 }
 
-.skills .h2, .footer .h2 {
+.skills h2 {
     width: 996px;
     margin: 0 auto;
-    padding-top: 24px;
-    text-align: center;
-    font-size: 32px;
-    line-height: 45px;
-    color: #fff;
-    border-bottom: 1px solid #fff;
 }
-
-.skills .h2 span {
-    color: #fff;
-}
-
 
 .skilllist {
     width: 224px;
@@ -89,15 +94,11 @@
 }
 
 .experience {
-    padding-bottom: 76px;
-}
-
-.experience .h2 {
-    border-bottom: 1px solid #000;
+    margin-bottom: 72px;
 }
 
 .exlist {
-    margin-top: 10px;
+    margin-top: 16px;
     margin-left: 24px;
     border-left: 1px solid #96A9C4;
 }
@@ -106,9 +107,7 @@
     font-size: 24px;
     line-height: 36px;
     font-weight: bold;
-    padding-left: 24px;
-    padding-top: 8px;
-    padding-bottom: 24px;
+    padding-left: 24px;    
 }
 
 .exlist li p {
@@ -121,29 +120,19 @@
 
 .footer {
     background-color: #415165;
-    padding-bottom: 32px;
+    padding: 24px 0 36px 0;
 }
 
-
-.footer span {
-    color: #fff;
-    font-size: 24px;
+.contact h2 {
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.contact {
-    margin-top: 32px;
+.socialmedia {
+    display:flex;
+    justify-content: center;
 }
 
-.contact li {
-    color: #fff;
-    font-size: 24px;
-    line-height: 36px;
-    text-align: center;
-    padding-bottom: 16px;
-}
-
-.contact li img {
-    margin-left: 12px;
-    margin-right: 12px;
-    margin-top: 4px;
+.socialmedia a {
+    margin: 12px ;
 }
