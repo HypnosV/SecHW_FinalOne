@@ -45,13 +45,10 @@
     color: #fff;
 }
 
-.profile {
+.profile, .education, .experience {
     margin-bottom: 72px;
 }
 
-.education {
-    margin-bottom: 72px;
-}
 
 .desc {
     margin-top: 16px;
@@ -93,9 +90,6 @@
     border-left: 1px solid gray;
 }
 
-.experience {
-    margin-bottom: 72px;
-}
 
 .exlist {
     margin-top: 16px;
@@ -123,9 +117,19 @@
     padding: 24px 0 36px 0;
 }
 
+
 .contact h2 {
     width: 1200px;
     margin: 0 auto;
+}
+
+.desc-dark a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.desc-dark a:hover {
+    color: pink;
 }
 
 .socialmedia {
