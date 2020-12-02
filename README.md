@@ -43,6 +43,6 @@ CSS:
 3. 相似的 CSS 設定，建議可以用逗號將 class 名稱隔開，並統一做設定 (ex: .profile, .education, .experience {margin-bottom: ...})，可以讓程式碼更簡潔。
 
 ---
-以上建議已調整同步至 GitHub Repo。
+以上建議已調整同步至 [GitHub Repo](https://github.com/KS-VC/SecHW_FinalOne)，並建立 [GitHub Pages](https://ks-vc.github.io/SecHW_FinalOne/)。
 
 ---
